@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height: 10%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    margin: 20px 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #home {
+    background-color: rgb(180, 201, 208);
+    padding: 10%;
+    width: 100%;
+    padding-bottom: 30%;
+  }
+  
+  #about {
+    background-color: rgb(8, 209, 245);
+    padding: 10%;
+    width: 100%;
+    padding-bottom: 30%;
+  }
+  
+  #services {
+    background-color: rgb(37, 75, 56);
+    padding: 10%;
+    width: 100%;
+    padding-bottom: 30%;
+  }
+  
+  #contact {
+    background-color: rgb(104, 24, 195);
+    padding: 10%;
+    width: 100%;
+    padding-bottom: 30%;
+  }
+  footer{
+    text-align: center;
+    background-color: rgb(18, 20, 19);
+    color: rgb(242, 242, 23);
+    padding: 10px;
+  }
+  
